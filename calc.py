@@ -22,7 +22,7 @@ def wykonaj_dzialanie():
         else:
             print("Nieprawidłowy wybór.")
 
-        print("Miłego dnia!")
+        print("Idź poćwicz!")
 
 
 wykonaj_dzialanie()

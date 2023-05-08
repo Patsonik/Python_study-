@@ -23,7 +23,7 @@ def wykonaj_dzialanie():
         else:
             print("Nieprawidłowy wybór.")
 
-        print("Miłego dnia!")
+        print("Niech matemtyka będzie z TObą!")
 
 
 wykonaj_dzialanie()
