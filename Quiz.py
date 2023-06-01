@@ -1,3 +1,55 @@
+# @todo Implement me
+def getFileContent(fileName):
+    return "Function should read the file content and return it"
+
+# @todo Implement me
+def printQuestion(fileName):
+    fileContent = getFileContent(fileName)
+    print("The proper question should be displayed based on the file content")
+
+# @todo Implement me
+def getUserAnswer():
+    return "Return the answer typed by the user"
+
+# @todo Implement me
+def getPoints(fileName, answer):
+    fileContent = getFileContent(fileName)
+    return 1 # Based on the file and the user's answer, this function should provide the received points
+
+def quiz2():
+    punkty = 0
+    
+    # Pytanie 1
+    printQuestion("question1.txt")
+    answer = getUserAnswer()
+    punkty += getPoints("answer1.txt", answer)
+    
+    # Pytanie 2
+    printQuestion("question2.txt")
+    answer = getUserAnswer()
+    punkty += getPoints("answer2.txt", answer)
+    
+    # Pytanie 3
+    printQuestion("question3.txt")
+    answer = getUserAnswer()
+    punkty += getPoints("answer3.txt", answer)
+    
+    # Pytanie 4
+    printQuestion("question4.txt")
+    answer = getUserAnswer()
+    punkty += getPoints("answer4.txt", answer)
+    
+    # Pytanie 5
+    printQuestion("question5.txt")
+    answer = getUserAnswer()
+    punkty += getPoints("answer5.txt", answer)
+    
+    # Wynik
+    print("\nMożna było zdobyć od 0 do 10 punktów, a ty masz", punkty, "punktów.")
+    print("Ave Pati!")
+
+
+
 def quiz():
     punkty = 0
     
